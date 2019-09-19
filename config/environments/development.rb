@@ -62,5 +62,5 @@ Rails.application.configure do
 
   config.webpacker.check_yarn_integrity = false
 
-  config.hosts << "intense-reef-32632"
+  config.hosts << "intense-reef-32632.herokuapp.com"
 end
