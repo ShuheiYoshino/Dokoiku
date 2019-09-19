@@ -61,4 +61,6 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.webpacker.check_yarn_integrity = false
+
+  config.hosts << "intense-reef-32632"
 end
